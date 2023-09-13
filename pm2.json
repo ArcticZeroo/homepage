@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "Homepage",
+            "script": "npm",
+            "args": ["run", "start"],
+            "watch": false,
+            "ignore_watch": ["node_modules"]
+        }
+    ]
+}
