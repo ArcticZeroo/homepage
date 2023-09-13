@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #165a8e;
+    color: white;
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+#main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 1.1em;
+}

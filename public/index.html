@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="B3WFqyQYTbi9WjwMQRX_05r7P0cWC6NJqyw7zAgrr_o"/>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <meta name="theme-color" content="#2196F3">
+    <script src="https://kit.fontawesome.com/f92be839c2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Frozor Industries - Home</title>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100vh;
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "Open Sans", sans-serif;
+            color: white;
+        }
+
+        html {
+            background: linear-gradient(125deg, rgba(19, 154, 177, 1) 0%, rgba(10, 10, 130, 1) 85%);
+        }
+
+        .content {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main .title {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .main .subtitle {
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+
+        .main a {
+            text-decoration: none;
+            -webkit-transition: color 0.25s;
+            -moz-transition: color 0.25s;
+            -ms-transition: color 0.25s;
+            -o-transition: color 0.25s;
+            transition: color 0.25s;
+            color: #ACE;
+        }
+
+        .main a:hover {
+            color: #BEF;
+        }
+
+        .section-bubble {
+            padding: 8px;
+            border-radius: 100%;
+            background: white;
+            width: 16px;
+            height: 16px;
+        }
+
+        .section-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgba(11, 112, 162, 1);
+        }
+
+        .section-icon {
+            z-index: 3;
+        }
+
+        /*
+        Too much of a pain to set up the auto expand without JS
+        .section-text {
+            background: white;
+            height: 32px;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: all 0.5s ease;
+            margin-left: -16px;
+            padding-left: 16px;
+            margin-right: -16px;
+        }
+        */
+
+        .links {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            width: 100%;
+        }
+
+        .links a {
+            margin-left: 12px;
+            margin-right: 12px;
+            font-size: 24px;
+        }
+
+        footer .links a {
+            margin: 16px;
+            font-size: 48px;
+            transition: all 0.25s ease;
+        }
+
+        footer .links a:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="main">
+        <div class="title">
+            Hi, I'm Spencer
+        </div>
+        <div class="subtitle">
+            I'm currently a Software Engineer at Microsoft, working within Outlook.
+        </div>
+        <div class="body">
+            <p>
+                I recently graduated with a Computer Science major from Michigan State University in Spring 2021.
+            </p>
+            <p>
+                I've been a self-taught programmer since middle school.
+            </p>
+            <div class="info">
+                <div>
+                    <div class="section-title">
+                        <i class="section-icon fas fa-briefcase section-bubble"></i>
+                    </div>
+                    <p>
+                        Most recently before graduation, I was a Software Engineer Intern at
+                        <a href="https://microsoft.com" target="_blank">Microsoft</a>.
+                        <br/>
+                        I worked on modernizing the "calendar apps" feature in Outlook Mobile, by replatforming it into
+                        a more modern service.
+                    </p>
+                    <p>
+                        Before that, I was also a Software Development Engineer Intern at <a href="https://amazon.com"
+                                                                                             target="_blank">Amazon</a>.
+                        <br/>
+                        I worked on enforcing customer activity controls in recommendations, on the scale of millions of
+                        calls
+                        per minute.
+                    </p>
+                    <p>
+                        Additionally, I worked at <a href="https://techsmith.com" target="_blank">TechSmith</a> as a
+                        Software Engineering Intern.
+                        <br/>
+                        I helped work on a new WPF-based video recorder, designed a react dashboard for the video
+                        encoder, contributed towards a youtube-like react app, and worked on its legacy angular app.
+                    </p>
+                    <p>
+                        I also worked on many internal staff tools at <a href="https://mineplex.com"
+                                                                         target="_blank">Mineplex</a>,
+                        including complex Minecraft and Slack bots, data analysis and visualization, and other quality
+                        of life tools.
+                    </p>
+                </div>
+                <!--div id="projects"> - Not really sure about how this fits in. Will probably move to a separate page.
+                    <i class="section-icon fas fa-tools"></i>
+                    <p>
+                        I have a pretty cool app that provides helpful information for other Michigan State University
+                        students by web scraping some of the university's websites.
+                    </p>
+
+                    <div class="links">
+                        <a href="/msu"><i class="fas fa-globe"></i></a>
+                        <a href="https://play.google.com/store/apps/details?id=io.frozor.msuhelper"><i class="fab fa-google-play"></i></a>
+                    </div>
+
+                    <p>
+                        I'm also working on a high-level Slack API for NodeJS. It feels very similar to DiscordJS, and
+                        is much easier to use than many existing solutions.
+                    </p>
+
+                    <div class="links">
+                        <a href="https://github.com/ArcticZeroo/carabiner"><i class="fab fa-github"></i></a>
+                        <a href="https://npmjs.org/package/carabiner"><i class="fab fa-npm"></i></a>
+                    </div>
+                </div-->
+                <footer>
+                    <div class="section-title">
+                        <i class="section-icon fas fa-user section-bubble"></i>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/ArcticZeroo" target="_blank" title="My GitHub page">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.npmjs.com/~arcticzeroo" target="_blank" title="My NPM page">
+                            <i class="fab fa-npm"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/spencer-novick/" target="_blank" title="My LinkedIn page">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:spencer@frozor.io" target="_blank" title="Email Me">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47261638-4', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
