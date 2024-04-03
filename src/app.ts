@@ -5,7 +5,6 @@ import * as path from 'node:path';
 import { getDirname } from './util/node.js';
 
 const publicPath = path.resolve(getDirname(import.meta.url), '..', 'public');
-const indexHtmlPath = path.join(publicPath, 'index.html');
 
 const app = new Koa();
 
